@@ -1,14 +1,23 @@
-/gen
-
-#java class files
+# built application files
+*.apk
+*.ap_
+# files for the dex VM
+*.dex
+# Java class files
 *.class
+# generated files
+bin/
+gen/
+# Local configuration file (sdk path, etc)
+local.properties
+# Eclipse project files
+.classpath
+.project
+.DS_Store
 
-/.settings
-/bin
-/.classpath
+.settings
+lint.xml
+proguard-project.txt
+project.properties
 
-/.project
-/lint.xml
-/proguard-project.txt
-*.properties
 
