@@ -1,0 +1,14 @@
+/gen
+
+#java class files
+*.class
+
+/.settings
+/bin
+/.classpath
+
+/.project
+/lint.xml
+/proguard-project.txt
+*.properties
+
